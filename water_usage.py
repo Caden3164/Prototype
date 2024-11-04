@@ -3,6 +3,8 @@ import pandas as pd
 import streamlit as st
 from openai import OpenAI
 
+#Disclaimer: Throughout making this code we did use ChatGPT to aid us in understanding and using different streamlit functions that we otherwise did not understand
+
 # Initialize the OpenAI client using the API key from the environment variable
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
